@@ -1,0 +1,16 @@
+{
+  "name": "permission-drift-analyzer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "权限漂移分析库：基于本地 JSON 快照计算过度授权时段",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --expose-gc --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^26.0.0"
+  }
+}
