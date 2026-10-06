@@ -1,0 +1,18 @@
+{
+  "name": "novasphere-billing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "VPS monthly billing library backed by SQLite",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=23.4.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --disable-warning=ExperimentalWarning --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
