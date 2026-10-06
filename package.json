@@ -1,0 +1,22 @@
+{
+  "name": "campus-dispatch",
+  "version": "1.0.0",
+  "description": "单校区预约派单库（TypeScript + SQLite）",
+  "scripts": {
+    "test": "npm run build && node --experimental-sqlite --no-warnings --test dist/test/*.test.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}
