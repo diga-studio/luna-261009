@@ -1,0 +1,17 @@
+{
+  "name": "pipelite",
+  "version": "0.1.0",
+  "description": "PipeLite group-delivery kernel: embedded library with SQLite persistence",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
