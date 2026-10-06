@@ -1,0 +1,16 @@
+{
+  "name": "resumable-upload",
+  "version": "0.1.0",
+  "description": "Resumable chunked file upload library with SHA-256 verified chunks and local persistence",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.test.json && node --test \"dist-test/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "typescript": "5.6.3"
+  }
+}
