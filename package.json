@@ -1,0 +1,15 @@
+{
+  "name": "cortex-nlu-phrase-retrieval",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CortexNLU in-memory phrase retrieval with bidirectional synonym rules",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
