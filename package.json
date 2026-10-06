@@ -1,0 +1,18 @@
+{
+  "name": "planned-switchover",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Recoverable planned switchover library for protection groups, orchestration state in SQLite",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
