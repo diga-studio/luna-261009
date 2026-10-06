@@ -1,0 +1,19 @@
+{
+  "name": "weekly-timesheet-settlement",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cross-location weekly work-hour settlement library",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"test/*.test.ts\""
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
