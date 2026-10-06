@@ -1,0 +1,20 @@
+{
+  "name": "journey-funnel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline journey funnel analysis library (prepare once, reopen, fast time-window queries)",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:test": "tsc -p tsconfig.test.json",
+    "build:bench": "tsc -p tsconfig.bench.json",
+    "test": "npm run build:test && node --test \"dist-test/test/*.test.js\"",
+    "bench": "npm run build:bench && node dist-bench/bench/run.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
