@@ -1,0 +1,23 @@
+{
+  "name": "pipelite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PipeLite grouped delivery kernel (embedded library, SQLite-backed)",
+  "type": "module",
+  "main": "dist/src/pipelite.js",
+  "exports": {
+    ".": "./dist/src/pipelite.js",
+    "./types": "./dist/src/types.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --disable-warning=ExperimentalWarning --test dist/test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
