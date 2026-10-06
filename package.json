@@ -1,0 +1,17 @@
+{
+  "name": "permission-drift-analyzer",
+  "version": "0.1.0",
+  "description": "Permission drift analysis over immutable JSON snapshots",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && tsc -p tsconfig.test.json && node --expose-gc --test \"dist-test/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.5.0"
+  }
+}
