@@ -1,0 +1,17 @@
+{
+  "name": "resumable-file-store",
+  "version": "0.1.0",
+  "description": "Resumable chunked file upload library with local persistence and SHA-256 verification",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0"
+  }
+}
