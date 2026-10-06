@@ -1,1 +1,3 @@
-# task26100918
+# LocalPulse
+
+TypeScript store-consistency report component. Run: npm install && npm test
