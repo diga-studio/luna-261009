@@ -1,0 +1,16 @@
+{
+  "name": "ab-experiment-judge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A/B experiment winner-judging library backed by local SQLite",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "24.19.1"
+  }
+}
