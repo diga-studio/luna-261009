@@ -1,0 +1,14 @@
+{
+  "name": "sms-delivery-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline SMS delivery scheduler with simulated clock and in-memory state",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
