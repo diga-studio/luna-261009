@@ -1,0 +1,16 @@
+{
+  "name": "live-exposure-stats",
+  "version": "0.1.0",
+  "private": true,
+  "description": "直播出镜曝光统计库：按回放区间统计每路输入的有效出镜毫秒",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.6.0"
+  }
+}
