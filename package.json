@@ -1,0 +1,18 @@
+{
+  "name": "sql-index-diagnoser",
+  "version": "0.1.0",
+  "description": "Offline SQL index diagnostic library for hosted platforms",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
