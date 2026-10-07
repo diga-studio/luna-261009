@@ -1,0 +1,13 @@
+{
+  "name": "word-review",
+  "version": "1.0.0",
+  "private": true,
+  "description": "错词间隔复习组件（进程内，离线补报，按发生时间推进）",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
