@@ -1,0 +1,13 @@
+{
+  "name": "chunk-fragment-planner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "In-chunk fragment budget planner: converts shattered hierarchies into at most 200 active fragments with minimal detail loss.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
