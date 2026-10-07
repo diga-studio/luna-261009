@@ -1,0 +1,18 @@
+{
+  "name": "local-knowledge-store",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local knowledge retrieval library with SQLite persistence and BM25 ranking",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.test.json && node --test dist-test/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
