@@ -1,0 +1,16 @@
+{
+  "name": "learning-path-settlement",
+  "version": "0.1.0",
+  "private": true,
+  "description": "学习路径达标结算库：修订发布、测验成绩接收、进度与徽章结算，持久化到本地 SQLite",
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
