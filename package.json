@@ -1,0 +1,14 @@
+{
+  "name": "pump-rul-twin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pump digital twin remaining-useful-life library (linear degradation, in-memory)",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
