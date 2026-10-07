@@ -1,0 +1,14 @@
+{
+  "name": "sql-index-doctor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline SQL index diagnostic library for a PostgreSQL SELECT subset",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/diagnose.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
